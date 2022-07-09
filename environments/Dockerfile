@@ -24,6 +24,7 @@ RUN apt update && apt install --no-install-recommends -y \
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python${PYTHON_VERSION} 1 \
     && update-alternatives --set python3 /usr/bin/python${PYTHON_VERSION} \
     && pip3 install poetry
+    && pip3 install 'git+https://github.com/facebookresearch/pytorch3d.git@stable'
 
 # Add user. Without this, following process is executed as admin. 
 RUN useradd -ms /bin/sh ${USER_NAME}
