@@ -33,3 +33,5 @@ USER ${USER_NAME}
 WORKDIR ${APPLICATION_DIRECTORY}
 # Create virtual environments inside of project.
 RUN poetry config virtualenvs.in-project true
+
+CMD ["jupyter-lab", "--ip=0.0.0.0","--port=8000" ,"--no-browser", "--allow-root", "--LabApp.token=''"]
