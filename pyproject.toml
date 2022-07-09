@@ -26,6 +26,13 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
+torch = { version = "=1.10.2+cu111", source = "pytorch-cu111" }
+torchvision = { version = "=0.11.3+cu111", source = "pytorch-cu111" }
+
+[[tool.poetry.source]]
+name = "pytorch-cu111"
+url = "https://download.pytorch.org/whl/cu111/"
+secondary = true
 
 [tool.poetry.dev-dependencies]
 pytest-cov = "^3.0.0"
