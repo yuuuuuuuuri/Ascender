@@ -26,7 +26,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-torch = { version = "=1.10.2+cu111", source = "pytorch-cu111" }
+torch = { version = "=1.10.0+cu111", source = "pytorch-cu111" }
+torchaudio = { version = "=0.10.0+cu111", source = "pytorch-cu111" }
 torchvision = { version = "=0.11.3+cu111", source = "pytorch-cu111" }
 
 [[tool.poetry.source]]
