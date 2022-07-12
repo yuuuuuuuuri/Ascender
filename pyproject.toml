@@ -26,6 +26,21 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
+torch = "^1.12.0"
+pytorch3d = {url = "https://www.piwheels.org/simple/pytorch3d/pytorch3d-0.0.1-py3-none-any.whl#sha256=b5bcd6ccb3c17dcbc36a41cd4196ad7bbd86142d22e95433b8a0f02171453513"}
+ffmpeg = "^1.4"
+numpy = "^1.23.1"
+torchaudio = "^0.12.0"
+torchvision = "^0.13.0"
+javascript = "^2015.32.59"
+opencv-python = "^4.6.0"
+python_speech_features = "^0.6"
+pickle-secure = {url = "https://files.pythonhosted.org/packages/c1/56/a2d3534efa3480d1d50eaa0b6c003fdd2ee8fbdf2fae6e7772b6e6681cd4/pickle_secure-0.9.99-py3-none-any.whl"}
+matplotlib = "^3.5.2"
+scikit-image = "^0.19.3"
+Pillow = "^9.2.0"
+tqdm = "^4.64.0"
+cmake = "^3.22.5"
 
 [tool.poetry.dev-dependencies]
 pytest-cov = "^3.0.0"
