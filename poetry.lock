@@ -144,14 +144,6 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
-name = "dlib"
-version = "19.24.0"
-description = "A toolkit for making real world machine learning and data analysis applications"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "ffmpeg"
 version = "1.4"
 description = "ffmpeg python package url [https://github.com/jiashaokun/ffmpeg]"
@@ -733,7 +725,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "22870d6c94d6c3298782c43177943a519652840e1e0ce79f4bc98c19696e4d90"
+content-hash = "d2f4f1a065aad90a9d36a460ed45c89e5eb011557a5259331695b60c2975456e"
 
 [metadata.files]
 atomicwrites = [
@@ -936,9 +928,6 @@ cryptography = [
 cycler = [
     {file = "cycler-0.11.0-py3-none-any.whl", hash = "sha256:3a27e95f763a428a739d2add979fa7494c912a32c17c4c38c4d5f082cad165a3"},
     {file = "cycler-0.11.0.tar.gz", hash = "sha256:9c87405839a19696e837b3b818fed3f5f69f16f1eec1a1ad77e043dcea9c772f"},
-]
-dlib = [
-    {file = "dlib-19.24.0.tar.gz", hash = "sha256:24f3009158e0d92386ee0c0c1317a37bab7b5ba846d444194c61ffa0964f986f"},
 ]
 ffmpeg = [
     {file = "ffmpeg-1.4.tar.gz", hash = "sha256:6931692c890ff21d39938433c2189747815dca0c60ddc7f9bb97f199dba0b5b9"},
