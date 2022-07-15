@@ -25,7 +25,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 torch = "^1.12.0"
 pytorch3d = {url = "https://www.piwheels.org/simple/pytorch3d/pytorch3d-0.0.1-py3-none-any.whl#sha256=b5bcd6ccb3c17dcbc36a41cd4196ad7bbd86142d22e95433b8a0f02171453513"}
 ffmpeg = "^1.4"
@@ -58,7 +58,7 @@ profile = "black"
 line_length = 88
 
 [tool.mypy]
-python_version = 3.8
+python_version = 3.7
 # following setting is same as pysen
 # https://github.com/pfnet/pysen/blob/main/setup.cfg#L12
 check_untyped_defs = true
