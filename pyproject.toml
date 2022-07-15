@@ -32,7 +32,6 @@ ffmpeg = "^1.4"
 numpy = "^1.23.1"
 torchaudio = "^0.12.0"
 torchvision = "^0.13.0"
-javascript = "^2015.32.59"
 opencv-python = "^4.6.0"
 python_speech_features = "^0.6"
 pickle-secure = {url = "https://files.pythonhosted.org/packages/c1/56/a2d3534efa3480d1d50eaa0b6c003fdd2ee8fbdf2fae6e7772b6e6681cd4/pickle_secure-0.9.99-py3-none-any.whl"}
