@@ -25,7 +25,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 pytest-cov = "^3.0.0"
@@ -42,7 +42,7 @@ profile = "black"
 line_length = 88
 
 [tool.mypy]
-python_version = 3.7
+python_version = 3.8
 # following setting is same as pysen
 # https://github.com/pfnet/pysen/blob/main/setup.cfg#L12
 check_untyped_defs = true
