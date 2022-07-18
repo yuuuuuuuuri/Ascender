@@ -34,7 +34,6 @@ mypy-extensions = ">=0.4.3"
 pathspec = ">=0.9.0"
 platformdirs = ">=2"
 tomli = {version = ">=1.1.0", markers = "python_full_version < \"3.11.0a7\""}
-typing-extensions = {version = ">=3.10.0.0", markers = "python_version < \"3.10\""}
 
 [package.extras]
 colorama = ["colorama (>=0.4.3)"]
@@ -267,6 +266,17 @@ pytest = ">=4.6"
 testing = ["fields", "hunter", "process-tests", "six", "pytest-xdist", "virtualenv"]
 
 [[package]]
+name = "scipy"
+version = "1.6.1"
+description = "SciPy: Scientific Library for Python"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+numpy = ">=1.16.5"
+
+[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -295,8 +305,8 @@ python-versions = ">=3.7"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.8"
-content-hash = "ce514e8e0f10895e1481347a1b4c9123c10e55a43b3765b29c092f2bb26b4783"
+python-versions = "^3.10"
+content-hash = "f8548ddff53ce174fd0301075aa1973a41c5c934dce5789bb4d8177b86a7321f"
 
 [metadata.files]
 atomicwrites = []
@@ -322,6 +332,7 @@ pyflakes = []
 pyparsing = []
 pytest = []
 pytest-cov = []
+scipy = []
 tomli = []
 torch = []
 typing-extensions = []
